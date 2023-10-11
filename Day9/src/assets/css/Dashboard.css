@@ -1,0 +1,89 @@
+/* DashboardInfo.css */
+
+/* Style for the card container */
+.card {
+    margin-bottom: 20px;
+    border: none;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+  }
+  
+  /* Style for the card header */
+  .card-header {
+    background-color: #ffffff;
+    border-bottom: 1px solid #e0e0e0;
+    font-weight: bold;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  /* Style for the card action dropdown */
+  .card-action {
+    display: flex;
+    align-items: center;
+  }
+  
+  /* Style for dropdown options */
+  .dropdown-menu {
+    min-width: 160px;
+  }
+  
+  /* Style for list items */
+  .dropdown-item {
+    padding: 10px 15px;
+    font-size: 14px;
+  }
+  
+  /* Style for the chart container */
+  .chart-container-1,
+  .chart-container-2 {
+    margin-top: 20px;
+  }
+  
+  /* Style for the list-inline elements */
+  .list-inline {
+    list-style: none;
+    padding-left: 0;
+  }
+  
+  .list-inline-item {
+    margin-right: 10px;
+    font-weight: bold;
+  }
+  
+  /* Style for the chart legends */
+  .fa-circle {
+    margin-right: 5px;
+    font-size: 10px;
+  }
+  
+  /* Style for the table */
+  .table {
+    background-color: transparent;
+  }
+  
+  /* Style for table rows */
+  .table tbody tr td {
+    vertical-align: middle;
+  }
+  
+  /* Style for percentage change */
+  td:last-child {
+    font-weight: bold;
+  }
+  
+  /* Style for the scrollbar in the table */
+  .table-responsive::-webkit-scrollbar {
+    width: 8px;
+  }
+  
+  .table-responsive::-webkit-scrollbar-thumb {
+    background-color: #ccc;
+    border-radius: 4px;
+  }
+  
+  .table-responsive::-webkit-scrollbar-thumb:hover {
+    background-color: #aaa;
+  }
+  
