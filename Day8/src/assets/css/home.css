@@ -1,0 +1,13 @@
+#homec{
+    background-color: transparent;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   
+}
+#homec h1{
+    font-size: 350%;
+    font-family:fantasy;
+    color: aliceblue;
+}
